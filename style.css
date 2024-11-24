@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;  
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main_header{
+    width: 100%;
+}
+
+.navbar{
+    background-color:black;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: white 5px solid;
+    border-radius: 5px;
+    justify-content: space-between;
+    position: sticky;
+    top: 10px;
+}
+
+
+.logo{
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+
+#nav-services{
+    text-decoration: none;
+    color: white;
+     margin: 0px 90px 0px 30px; 
+}
+
+#nav-services:hover{
+    color:#B9E5E8;
+    text-decoration: underline;
+}
+
+
+#nav-about{
+    text-decoration: none;
+    color: white;
+     margin: 0px 90px 0px 50px;  
+}
+#nav-about:hover{
+    color:#B9E5E8;
+    text-decoration: underline;
+}
+
+
+#nav-contact{
+    text-decoration: none;
+    color: white;
+     margin: 0px 90px 0px 50px;  
+}
+#nav-contact:hover{
+    color:#B9E5E8;
+    text-decoration: underline;
+}
+
+
+#nav-FAQs{
+    text-decoration: none;
+    color: white;
+     margin: 0px 90px 0px 0px;  
+}
+#nav-FAQs:hover{
+    color:#B9E5E8;
+    text-decoration: underline;
+}
+
+
+.serch-bar{
+    display: flex;
+    background-color: white;
+    margin-right: 40px;
+    border-radius: 4px;
+    border: white solid 3px;
+}
+
+
+#icon{
+    margin: 0px 4px 0px 4px;
+}  
+
+.main-banner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    border: 5px white solid;
+   
+}
+
+.apply-main-background{
+    height: 300px;
+    width: 50%;
+    background-color: rgb(182, 218, 242);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+
+.apply-main{
+    background-color: white;
+    z-index: 1;
+    height: 220px;
+    width: 70%;
+    display: inline;
+}
+
+#box-heading{
+    font-size: 1.6rem;
+   text-align: center;
+    margin: 6% 0 3% 0; 
+}
+
+#content{
+    font-size: 1.5rem;
+   text-align: center;
+     margin: 0 2% 0 2% ; 
+}
+
+.apply-button {
+    background-color: red;
+    color: white;
+    height: 18%;
+    width: 25%;
+    margin-left: 35%;
+    margin-top: 5%;
+
+}
+#apply-button:hover{
+    background-color: black;
+    color: white;
+} 
+#home-image{
+    margin: 0 25% 0 25%;
+    height: 55px;
+    width: 38%;
+}
+
+#mortgage-heading{
+    margin-top: 10%;
+    font-size: 2rem;
+   text-align: center;
+   margin-left: 10%;
+}
+
+#mortgage-content{
+    font-size: 1.2rem;
+   text-align: center;
+   margin-bottom: 2%;
+    
+}
+
+#mortgage-calc{
+    background-color: red;
+    color: white;
+    height: 20%;
+    width: 30%;
+    margin-left: 40%;
+    margin-bottom: 2%;
+    font-size: 1.2rem;
+}
+
+#mortgage-calc:hover{
+    background-color: black;
+    color: white;
+} 
+
+.home-page{
+    display: flex;
+    width: 100%;
+}
+.services-home {
+   width: 60%;
+   display: flex;
+   justify-content: center;
+   height: 500px;
+   display: flex;
+    background-color: rgb(182, 218, 242); 
+    border: white 10px solid;
+}
+
+
+#services-list{
+    line-height: 1.5;
+    font-size: 1.8rem;
+    color: rgb(0, 0, 0);
+
+}
+#services-header-home{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    margin-left: 25%;
+    margin-bottom: 8%; 
+}
+
+#services-header-home:hover{
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+
+.FAQs-home{
+    display: inline;
+    background-color: rgb(182, 218, 242);
+    padding-right: 5%;
+    padding-left: 5%; 
+    width: 60%;
+    height: 500px;
+    border: white 10px solid;
+   
+}
+.faq-main-content{
+    display: flex;
+    flex-direction: column;
+}
+.FAQs-image{
+    padding-left: 1%; 
+    margin-top: 6% ;
+}
+
+#faq-home-header{
+    font-size: 2.2rem;
+    text-align: center;
+    color: white;
+    margin-left: 15%; 
+    margin-right: 10%;
+}
+#faq-home-content{
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    margin-top: 5%;
+    
+}
+#FAQs-button{
+    background-color: red;
+    color: white;
+    height: 10%; 
+    width: 50%; 
+    margin-top: 5%;
+    font-size: 1.3rem;
+    margin-left: 30%;
+
+}
+.footer{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    opacity: 0.9;
+    
+}

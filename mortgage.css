@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;  
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.mortgage-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10%;
+    padding-top: 2%;
+}
+
+#mortgage-header{
+    color: black;
+    font-size: 3rem;
+    align-items: center;
+    margin-bottom: 5%;
+
+}
+
+#mortgage-tagline{
+    color: white;
+    font-size: 4rem;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.Calculator{
+    height: 650px;
+    width: 40%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 2;
+    margin: 17% 0 5% 0;
+    border: 3px black solid;
+    border-radius: 5px;
+    
+}
+
+#Calculate-mort{
+    background-color: red;
+    color: white;
+    height: 10%; 
+    width: 30%; 
+    margin-top: 5%;
+    font-size: 1.3rem;
+    
+}
+
+.input-mortgage{
+    width: 80%;
+    height: 30px;
+}

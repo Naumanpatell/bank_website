@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mortgage calculator </title>
+    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mortgage.css">
+</head>
+<body>
+ 
+    <header class="main_header">
+        
+      <div class="navbar">
+<!-- navbar -->
+          <div class="logo">
+            <a  href="index.html" >
+            <img src="al--hima.png"  href="index.html" alt="logo" width="100px" height="70px" />
+          </a>
+        </div>
+        
+          <div class="nav-icons">
+            <a href="services.html" id="nav-services"> Banking Services </a>
+            <a href="about_us.html" id="nav-about"> About Us </a>
+            <a href="contact_us.html" id="nav-contact"> Contact Us </a>
+            <a href="FAQs.html" id="nav-FAQs"> FAQs </a>
+          </div>
+        
+          <div class="serch-bar">
+            <input type="text" placeholder="serch" />
+            <i class="fa-solid fa-magnifying-glass" id="icon"></i>
+          </div>
+        </div>
+      </header>
+
+<!-- calculator -->
+      <main style="background-color: rgb(182, 218, 242) ;">
+          <div class="mortgage-main">
+            <p id="mortgage-tagline"> Take your first step to your own home. </p>
+             
+            <form class="Calculator">
+              
+              <p id="mortgage-header"> Mortgage Calculator </p>
+              
+              <input type="number"  class="input-mortgage" id="loan-Amount" placeholder="Loan Amount" required>
+              <br>
+               <input type="number"  class="input-mortgage" id="interest-Rate" placeholder="Interest Rate" step="0.01" required>
+              <br>
+               <input type="number"  class="input-mortgage" id="loan-Term" placeholder="Loan Term" required>
+              <br>
+              <input type="number" class="input-mortgage" id="monthly-Income" placeholder="monthly-Income" required> 
+              <br>
+              <button type="button" id="Calculate-mort">Calculate</button>
+            </form>
+            <div id="Output">
+              <p id="monthly-Payment"></p>
+              <p id="affordability"></p>
+            </div>
+
+             </div>
+          </div>
+       
+      </main>
+
+<!-- footer -->
+      <footer>
+        <div class="footer">
+            <div id="copyright" style="color: white; display: flex; justify-content: end; align-content: center; "> <p  >copyright-Al Hima </p>  </div>
+            <div style="display: flex; justify-content: start;  flex-direction: column; color: white;"> <p id="email"> Email-Id: alhima@gamil.com </p> 
+                   <p id="email"> Phone no: XXXXXX2343 </p> 
+            </div>
+        </div>
+      </footer>
+      
+      <script src="script.js"></script>
+      <script src="mortgage.js"></script>
+</body>
+</html>

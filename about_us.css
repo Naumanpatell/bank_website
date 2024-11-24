@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;  
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.aboutus-main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    flex-direction: row-reverse ;
+    padding-bottom: 10%;
+
+}
+
+.about-us-content{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(182, 218, 242);
+    color: rgb(0, 0, 0);
+    font: 3rem;
+    padding: 0 6% 6% 6%; 
+    line-height: 1.8;
+}
+
+
+#content-header-aboutus{
+    font-size: 3.5rem;
+    color: rgb(0, 0, 0);
+}
+
+#aboutus-tagline{
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 10% 0 15% 0;
+   
+   color: white;
+}
+
+#about-image{
+    height: 120%;
+    width: 100%;
+}
